@@ -1,6 +1,8 @@
 function redirections(event) {
   setTimeout(function() {
-    fatchfor('pages/home.html')
+    fatchfor('pages/buy.html',document.querySelector("#root"))
+    contentHeader = document.querySelector("#header")
+    contentHeader = fatchfor('Components/Header/header.html', document.querySelector("#header"))
 }, 2000) ; 
 contentLogin = document.querySelector('#content-login')
 contentLogin.innerHTML  = " "

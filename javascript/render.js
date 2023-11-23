@@ -4,7 +4,7 @@ function MyComponent(container) {
 }
 
 MyComponent.prototype.render = function () {
-  this.container.innerHTML = fatchfor('pages/login.html');
+  this.container.innerHTML = fatchfor('pages/login.html', document.querySelector("#root"));
 };
 
 

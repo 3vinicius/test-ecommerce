@@ -1,5 +1,5 @@
-function fatchfor(path){
-  const contentRoot = document.querySelector("#root");
+function fatchfor(path,refer){
+  const contentRoot = refer;
   const caminhoCompleto = path; // Certifique-se de que este caminho está correto
 fetch(caminhoCompleto)
     .then(response => {
