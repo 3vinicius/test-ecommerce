@@ -1,15 +1,13 @@
-# ecommerce
+# E-commerce
 
-# Projeto test usando javascript + bootstrap
+## Projeto de Teste Utilizando JavaScript + Bootstrap
 
-Este é um projeto teste que demonstra as seguintes implementações:
+Este é um projeto de teste que demonstra as seguintes implementações:
 
 - Login e autenticação
-- Pagina de compras
-- Pagina de calendario
+- Página de compras
+- Página de calendário
 
-## Intenção
+### Objetivo
 
-Neste projeto, serviu de teste e preparação para a criação de uma plataforma de agendamentos de aula usando SpringBoot e Angular. A ideia é usar a API do PayPal para fazer e receber os pagamentos. 
-
-
+Este projeto serviu como teste e preparação para a criação de uma plataforma de agendamento de aulas utilizando Spring Boot e Angular. A ideia é integrar a API do PayPal para realizar e receber os pagamentos.
